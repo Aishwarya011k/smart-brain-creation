@@ -148,8 +148,10 @@ const cardData = [
 const Home = () => {
   return (
     <>
-      <div className="home-main">
-        <h2 className="home-head">{homecontent.head}</h2>
+      <div className="home-main" backgroundColor="#ffffff">
+        <h2 className="home-head" style={{ backgroundColor: "#ffffff" }}>
+          {homecontent.head}
+        </h2>
         <p className="home-para">{homecontent.para}</p>
 
         <div className="images-cards">

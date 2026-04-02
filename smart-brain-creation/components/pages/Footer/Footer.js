@@ -86,7 +86,7 @@ const Footer = () => {
           {/* Logo and Description Section */}
           <div className="footer-section">
             <div className="logo-section">
-              <img src="/footer.png" alt="Smart Brain Creations Logo" className="footer-logo" />
+              <img src="/footer.png" alt="Smart Brain Creations Logo" style={{ maxWidth: '100px', height: 'auto', marginBottom: '1rem' }} />
             </div>
             <p className="footer-description">
               Creative & Digital Education for Future-Ready Students.<br />
