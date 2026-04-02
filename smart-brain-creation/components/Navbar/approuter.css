@@ -2,11 +2,14 @@
 
 
   .hero-section {
-    height: 100vh;
+    min-height: 60vh;
+    height: auto;
+
+    background-color: transparent;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -96,10 +99,12 @@
 }
 
 .page-content {
-    min-height: 90vh;
-    padding: 2rem;
- 
+    min-height: auto; /* let content height naturally determine page length */
+    padding: 0;
+    width: 100%;
+    background-color: #ffffff;
 }
+
 
 /* Ensure background image covers properly on all devices */
 @media (max-width: 1024px) {

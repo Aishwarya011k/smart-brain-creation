@@ -8,10 +8,24 @@
 .gamezone-section {
   /* background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); */
   color: white;
-  padding: 60px 20px;
+  padding: 20px 0 0 0;
+  margin: 0;
   font-family: 'Arial', sans-serif;
   background-color: #501069;
+  min-height: 100vh;
 }
+
+.gamezone-top {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.gamezone-page-content {
+  margin-top: 0;
+  padding-top: 0;
+  background-color: #501069;
+}
+
 
 /* ======= TOP SECTION ======= */
 .gamezone-top {

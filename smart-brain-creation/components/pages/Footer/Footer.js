@@ -86,8 +86,7 @@ const Footer = () => {
           {/* Logo and Description Section */}
           <div className="footer-section">
             <div className="logo-section">
-              <h1 className="logo-main">Smart</h1>
-              <h2 className="logo-sub">BRAIN CREATIONS</h2>
+              <img src="/footer.png" alt="Smart Brain Creations Logo" className="footer-logo" />
             </div>
             <p className="footer-description">
               Creative & Digital Education for Future-Ready Students.<br />
@@ -107,6 +106,9 @@ const Footer = () => {
               <li><Link href="/programs">Showcase</Link></li>
               <li><Link href="/gamezone">Game Development</Link></li>
               <li><Link href="/contact">Contact Us</Link></li>
+              <li><Link href="/privacy">Privacy Policy</Link></li>
+              <li><Link href="/disclaimer">Disclaimer</Link></li>
+              <li><Link href="/terms">Terms & Conditions</Link></li>
             </ul>
           </div>
 
@@ -117,7 +119,7 @@ const Footer = () => {
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link">Facebook</a>
               <a href="https://www.instagram.com/smart_brain_creation?igsh=MTZvNnA1cXdpbWhvcw== " target="_blank" rel="noopener noreferrer" className="social-link">Instagram</a>
               <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="social-link">YouTube</a>
-              <a href="https://www.linkedin.com/in/smart-brain-creation-920663377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" rel="noopener noreferrer" className="social-link">LinkedIn</a>
+              <a href="https://www.linkedin.com/company/smart-brain-creation/" target="_blank" rel="noopener noreferrer" className="social-link">LinkedIn</a>
             </div>
           </div>
 

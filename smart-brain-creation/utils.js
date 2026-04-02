@@ -48,7 +48,7 @@ export const homedata = {
     para:"Explore our comprehensive approach to creative education and see how we're preparing students for the digital future.",
     img1: "/home-compo-1.png",
     img2: "/home-2.png",
-    img3: "/home3 20.png",
+    img3: "/lab.png",  // use explicit Creative Labs image for better visibility
     img4: "/home4.png",
     img5: "/home5.png",
     img6: "/home6.png",

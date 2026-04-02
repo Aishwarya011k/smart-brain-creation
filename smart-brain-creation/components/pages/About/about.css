@@ -1,11 +1,9 @@
 .about-us-container {
     width: 100%;
-    min-height: 100vh;
+    min-height: auto;
     background: #ffffff;
-   
     box-sizing: border-box;
-  
-        
+    padding-bottom: 2rem;
   }
   
   .about-us-content {

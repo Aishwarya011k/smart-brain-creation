@@ -138,10 +138,12 @@
 
 .lab-image {
   width: 100%;
+  min-height: 240px;
   height: auto;
   object-fit: cover;
   display: block;
   border-radius: 0.5rem;
+  background-color: #f9f5ff;
 }
 
 .creative-lab-right {

@@ -43,7 +43,7 @@ function GameLayout({ pathname, children }) {
       </div>
 
       {/* Rest of Page Content */}
-      <div className="page-content">
+      <div className="gamezone-page-content">
         {children}
       </div>
     </div>
