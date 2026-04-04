@@ -1,7 +1,5 @@
 import React from "react";
 
-import Footer from "../../../pages/Footer/Footer"
-
 function Gameabout()
 {
      return(
@@ -48,7 +46,7 @@ For more information on how Google uses your information, you can review their P
 <h4>Changes to this Privacy Policy</h4>
 <p className="sentence">We may update this Privacy Policy from time to time. Any changes will be posted here, and the date of the last revision will be updated.</p>
 </div>
-<Footer/>
+
 </section>
 )
 }

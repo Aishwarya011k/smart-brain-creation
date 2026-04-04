@@ -1,8 +1,6 @@
 
 import React from "react";
 
-import Footer from "../../../pages/Footer/Footer"
-
 function Terms() {
      return (
           <section>
@@ -51,7 +49,6 @@ function Terms() {
                     <br /><br />
 
                </div>
-               <Footer/>
           </section>
      )
 }

@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa";
-import Footer from "../../../pages/Footer/Footer";
 
 const GameContact = () => {
   const form = useRef();
@@ -135,7 +134,6 @@ const GameContact = () => {
 
     
     </div>
-      <Footer />
     </div>
   );
 };

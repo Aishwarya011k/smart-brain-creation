@@ -19,7 +19,7 @@ function GameLayout({ pathname, children }) {
 
   const content = gameHomeData[pathname];
   return (
-    <div>
+    <div className="gamezone-layout">
       <div
         className="hero-section"
         style={{ backgroundImage: `url(${bg})` }}

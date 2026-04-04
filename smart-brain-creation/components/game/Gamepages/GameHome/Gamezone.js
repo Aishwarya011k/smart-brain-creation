@@ -1,7 +1,6 @@
 
 
 import React from "react";
-import Footer from "../../../pages/Footer/Footer";
 
 const Gamezone = () => {
   const images = [
@@ -107,7 +106,6 @@ const Gamezone = () => {
 
       
     </section>
-    <Footer />
        </div>
   );
 };
